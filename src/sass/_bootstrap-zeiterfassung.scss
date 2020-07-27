@@ -1,0 +1,41 @@
+// Bootstrap SASS extension set-up: https://travishorn.com/customizing-bootstrap-styles-step-by-step-5fdfd60d1116
+// Bootstrap variables: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+
+// grid:
+$grid-columns: 24;
+$grid-gutter-width: 0.5rem;
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1850px
+);
+
+// turn off round edges:
+$enable-rounded: false;
+
+// default font:
+$font-family-base: arial, sans-serif;
+$body-color: #000;
+$font-size-base: 0.83rem;
+
+// default colors:
+$red: #B42C17;
+$yellow: #FFFFD8;
+
+// links:
+$link-color: #ddebff;
+
+// input fields:
+$input-border-color: #aaa;
+$form-group-margin-bottom: 0rem;
+$input-padding-y: 0.1rem;
+$input-padding-x: 0.4rem;
+$enable-validation-icons: false;
+
+.btn-sm {
+  border: 1px solid;
+  background-color: transparent;
+}
